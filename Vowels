@@ -1,0 +1,12 @@
+l2=['a','e','i','f','t','h','u','i']
+vow=[]
+novow=[]
+for i in range(len(l2)):
+    if(l2[i] in ['a','e','i','o','u']):
+        print(l2[i]," is a vowel")
+        vow.append(l2[i])
+    else:
+        print(l2[i]," is not a vowel")
+        novow.append(l2[i])
+print("Vowels : ",vow)
+print("Not_Vowels:",novow)
