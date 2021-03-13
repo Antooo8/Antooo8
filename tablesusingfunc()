@@ -1,0 +1,8 @@
+def tables(a,b):
+    
+    for a in range(1,a+1): #range of a
+        for b in range(1,b+1):  #range of b
+            print(a,"*",b,"=",a*b)
+a=int(input("Enter the value of the tables to be printed : "))
+b=int(input("Enter the nth table value : "))
+print(tables(a,b))
