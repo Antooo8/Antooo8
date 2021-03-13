@@ -1,0 +1,12 @@
+list1=[]
+n=int(input("Enter number of lines : "))
+for i in range (1,n+1):
+    a=int(input("Enter the numbers : "))
+    list1.append(a)
+print(list1)
+list1.reverse()
+print("Reverse : ",list1)
+for j in range(len(list1)):
+    print("The index value of " ,j, " is ", list1[j])
+   
+   
