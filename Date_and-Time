@@ -1,0 +1,5 @@
+import datetime
+from datetime import datetime
+dt1=datetime(2019,3,4,5,6,34,12346) #printing date time with nanosecs
+print(dt1)
+print(dt1.hour)
