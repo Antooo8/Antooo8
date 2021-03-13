@@ -1,9 +1,9 @@
 #loan calculator
 name=(input("Enter your name to continue : "))
 print("Hi ,",name ,"!! Provide the details as asked below :")
-p=int(input("Enthe the principal amount for loan : "))
-n=int(input("Enthe the tenure period for loan (in years) : "))
-r=int(input("Enthe the rate of interest for loan : "))
+p=int(input("Enter the principal amount for loan : "))
+n=int(input("Enter the tenure period for loan (in years) : "))
+r=int(input("Enter the rate of interest for loan : "))
 t=n*12
 r=r/(12*100)
 EMI=(p*r*pow(1+r,t))/(pow(1+r,t)-1)
